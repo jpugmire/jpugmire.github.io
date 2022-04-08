@@ -25,13 +25,13 @@ function removeEventButton() {
 
 function removeEvent(targetDate, eventNumber) {
     var element = document.getElementById('day-' + targetDate + '-event-' + eventNumber);
-    var eventCount = JSON.parse(sessionStorage.getItem('eventCount')) - 1;
+    var eventCount = JSON.parse(localStorage.getItem('eventCount')) - 1;
 
     //nullcheck
     if(typeof element !== 'undefined' && element !== null){
         element.remove();
-        sessionStorage.removeItem('day-'+ targetDate + '-event-' + eventNumber);
-        sessionStorage.setItem('eventCount', eventCount);
+        localStorage.removeItem('day-'+ targetDate + '-event-' + eventNumber);
+        localStorage.setItem('eventCount', eventCount);
         removeEventInfoModal();
     }
     else
@@ -64,12 +64,12 @@ function saveSessionEvent() {
 
     var eventCount = 0;
     //figure out how many events are currently stored
-    if (sessionStorage.getItem('eventCount'))
-        eventCount = JSON.parse(sessionStorage.getItem('eventCount'));
+    if (localStorage.getItem('eventCount'))
+        eventCount = JSON.parse(localStorage.getItem('eventCount'));
 
     //save event obj + increment eventcount
-    sessionStorage.setItem('eventCount', JSON.stringify(eventCount+1));
-    sessionStorage.setItem('day-' + (formDate+5) + '-event-' + eventId, JSON.stringify(event));
+    localStorage.setItem('eventCount', JSON.stringify(eventCount+1));
+    localStorage.setItem('day-' + (formDate+5) + '-event-' + eventId, JSON.stringify(event));
     addEvent(formDate, formTitle, eventId);
 }
 
@@ -77,9 +77,9 @@ function getAllSessionEvents() {
     //create array to save objects
     var events = [];
     //get all events from session storage
-    for (var key in sessionStorage) {
+    for (var key in localStorage) {
         if (key.indexOf('day') === 0){
-            events.push(JSON.parse(sessionStorage.getItem(key)));
+            events.push(JSON.parse(localStorage.getItem(key)));
         }
     }
     return events;
@@ -87,15 +87,15 @@ function getAllSessionEvents() {
 
 function getSessionEventById(targetId) {
     var event = {};
-    for (var key in sessionStorage) {
+    for (var key in localStorage) {
         if(key.indexOf('day') === 0 && key.includes(targetId)){
-            event = JSON.parse(sessionStorage.getItem(key));
+            event = JSON.parse(localStorage.getItem(key));
         }
     }
     return event;
 }
 
-function renderEventsFromSessionStorage(){
+function renderEventsFromlocalStorage(){
     var events = getAllSessionEvents();
     var eventCount = 0;
     //clear all events
@@ -106,5 +106,5 @@ function renderEventsFromSessionStorage(){
     }
     //render all events
     //save event count
-    sessionStorage.setItem('eventCount', JSON.stringify(eventCount));
+    localStorage.setItem('eventCount', JSON.stringify(eventCount));
 }

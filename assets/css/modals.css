@@ -173,4 +173,13 @@
     #modal_container input {
         width: 300px;
     }
+    #event_modal_container {
+        width: 300px;
+    }
+    #maps_container {
+        width:235px;
+    }
+    #weather_container {
+        width: 235px;
+    }
 }

@@ -182,4 +182,8 @@
     #weather_container {
         width: 235px;
     }
+    .calendar-event{
+        position: absolute;
+        left: 5px;
+    }
 }

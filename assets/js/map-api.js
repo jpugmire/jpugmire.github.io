@@ -21,9 +21,6 @@ function getLatLon(eventAddress) {
       updateMap(results[0].geometry.location.lat(), results[0].geometry.location.lng());
       fetchCurrentWeather(results[0].geometry.location.lat(), results[0].geometry.location.lng(), city);
     }
-    else {
-      alert("Geocode error: " + status);
-    }
 });
 }
 

@@ -2,13 +2,53 @@
 <html lang="en">
 
 <head>
-    <div>Joseph Pugmire's Portfolio Page</div>
+    <link rel="stylesheet" href="./assets/homepage/CSS/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <title>Home</title>
 </head>
 <body>
-    <div>Hackathons (Group Projects):</div>
-    <a href="./assets/family_calendar/pages/family_calendar.html">Family Calendar Hackathon</a>
-    <div>Homework Assignments:</div>
-    <a href="./assets/homework/01/Develop/index.html">Homework 01</a>
+    <div id="navbar">
+        <h2>Joseph Pugmire's Portfolio Page</h2>
+        <div id="nav-container">
+            <div class="nav-item">Contact</div>
+            <div class="nav-item"><a href="https://www.linkedin.com/in/joseph-p-605820122/" target="_blank">Resume</a></div>
+            <div class="nav-item"><a href="#project-section">Projects</a></div>
+            <div class="nav-item"> <a href="#homework-section">Homework</a></div>
+        </div>
+        
+    </div>
+    <div id="content">
+        <div id="about-me-container">
+            <div id="about-me-text">
+                <h3>About Me:</h3>
+                <h4>Development Experience</h4>
+                    <ul>
+                        <li>5 Internships with <a href="https://www.evestment.com/">eVestment</a> (/NASDAQ) as a full-stack developer.</li>
+                        <li>Significant experience with agile project planning / development</li>
+                        <li>Almost fully complete CS undergrad at Clemson University (remains unfinished due to personal complications)</li>
+                        
+                    </ul>
+                    <div>Proficient with the following technologies:</div>
+                    <ul>
+                        <li>HTML / CSS / JS</li>
+                        <li>C, C++, C#</li>
+                        <li>AWS, MySQL, MongoDB, Bitbucket, Jenkins</li>
+                    </ul>
+                <h4>Contact:</h4>
+                    <p>For professional inquiries / recruiting, please use my email at: <a href="mailto: jospugg@gmail.com">jospugg@gmail.com</a></p>
+            </div>
+            <img id="prof-img" src="./assets/homepage/images/profile.jpeg">
+            <!-- <div id="about-me-img">
+                <div id="image-test">test</div>
+                <img src="./assets/homepage/images/kujo.png">
+            </div> -->
+        </div>
+        
+        <h3 id="project-section">Hackathons (Group Projects):</h3>
+        <a href="./assets/family_calendar/pages/family_calendar.html" target="_blank">Family Calendar Hackathon</a>
+        <h3 id="homework-section">Homework Assignments:</h3>
+        <a href="./assets/homework/01/Develop/index.html" target="_blank">Homework 01</a>
+    </div>
 </body>
 
 </html>

@@ -1,5 +1,9 @@
-# Group Project 1 - Calendar Event Planner
+# Joseph Pugmire - Portfolio Repo
 
-This is an HTML/CSS/JS based calendar app that allows you to add and manipulate events as well as add locations and view potential weather forecasts for the date in question.
+This is a simple repo site where you'll be able to be linked to all my classwork and hackathon projects.
 
-![alt_text](/assets/images/markdown_img.png)
+## Projects
+[Hackathon 01](https://jpugmire.github.io/assets/family_calendar/pages/family_calendar.html)
+
+## Homework
+[Homework 01](https://jpugmire.github.io/assets/homework/01/Develop/index.html)

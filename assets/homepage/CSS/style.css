@@ -90,6 +90,7 @@ body {
     }
     #prof-img {
         width: 50%;
+        height: auto;
     }
     #about-me-container{
         flex-direction: column;

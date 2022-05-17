@@ -56,7 +56,7 @@ body {
 /*main content*/
 
 #content{
-    margin: 3.2rem 0rem 1rem 0rem;
+    margin: 0rem 0rem 1rem 0rem;
 }
 
 /* landing page */
@@ -120,6 +120,6 @@ body {
         width: 500px;
     }
     .landing-page{
-        margin-top: 9.4rem;
+        margin-top: 5rem;
     }
 }

@@ -9,8 +9,6 @@ body {
 
 /*navigation*/
 
-
-
 #navbar {
     background-color: #000000;
     margin: 0px;
@@ -120,12 +118,6 @@ body {
 
 #about-me-container h3{
     margin-top: 0;
-}
-
-#image-test{
-    width: 400px;
-    height: 300px;
-    background-color: cyan;
 }
 
 #photo-container{

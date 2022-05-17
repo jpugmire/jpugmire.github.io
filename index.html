@@ -12,9 +12,9 @@
     <script src="https://kit.fontawesome.com/4c4f62a5ec.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="navbar">
+    <div class="navbar">
         <h2>Joseph Pugmire, Software Developer</h2>
-        <div id="nav-container">
+        <div class="nav-container">
             <div class="nav-item"><a href="https://www.linkedin.com/in/joseph-p-605820122/" target="_blank">Resume</a></div>
             <div class="nav-item"><a href="#project-section">Projects</a></div>
             <div class="nav-item"><a href="#homework-section">Homework</a></div>
@@ -22,16 +22,16 @@
         </div>
     </div>
     <div class="landing-page">
-        <div id="landing-text">Find out why you want me on your team:</div>
-        <div id="icon-wrapper" onclick="hideArrow()" href="#about-me-container"><i class="fas fa-angle-down"></i></div>
+        <div class="landing-text">Find out why you want me on your team:</div>
+        <div class="icon-wrapper" onclick="hideArrow()" href="#about-me-container"><i class="fas fa-angle-down"></i></div>
     </div>
-    <div id="content">
-        <h3 id="project-section">Hackathons (Group Projects):</h3>
+    <div class="content">
+        <h3>Hackathons (Group Projects):</h3>
         <a href="./assets/family_calendar/pages/family_calendar.html" target="_blank">Family Calendar Hackathon</a>
-        <h3 id="homework-section">Homework Assignments:</h3>
+        <h3>Homework Assignments:</h3>
         <a href="./assets/homework/01/Develop/index.html" target="_blank">Homework 01</a>
-        <div id="about-me-container">
-            <div id="bio-wrapper">
+        <div class="about-me-container">
+            <div class="bio-wrapper">
                 <h3>About Me</h3>
                 <h4>Development Experience</h4>
                     <ul>
@@ -50,7 +50,7 @@
                 <h4>Contact:</h4>
                     <p>For professional inquiries / recruiting, please use my email at: <a href="mailto: jospugg@gmail.com">jospugg@gmail.com</a></p>
             </div>
-            <div id="profile-img"></div>
+            <div class="profile-img"></div>
         </div>
     </div>
 </body>
@@ -58,7 +58,7 @@
 </html>
 
 <script>
-const nav = document.querySelector('#nav-container');
+const nav = document.getElementsByClassName('nav-container')[0];
 let navTop = nav.offsetTop;
 
 function fixedNav() {
@@ -72,8 +72,8 @@ function fixedNav() {
 window.addEventListener('scroll', fixedNav);
 
 function hideArrow() {
-    var el = document.getElementById('icon-wrapper');
+    var el = document.getElementsByClassName('icon-wrapper')[0];
     el.style.display = 'none';
-    document.getElementById('about-me-container').scrollIntoView();
+    document.getElementsByClassName('about-me-container')[0].scrollIntoView();
 }
 </script>

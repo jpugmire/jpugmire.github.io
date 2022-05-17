@@ -9,7 +9,7 @@ body {
 
 /*navigation*/
 
-#navbar {
+.navbar {
     background-color: #000000;
     margin: 0px;
     display: flex;
@@ -19,12 +19,12 @@ body {
     color: #e8e8e8;
 }
 
-#navbar h2 {
+.navbar h2 {
     margin: 0px;
     padding: 0rem 1rem;
 }
 
-#nav-container {
+.nav-container {
     display: flex;
     z-index: 2;
     background-color: inherit;
@@ -51,7 +51,7 @@ body {
 
 /*main content*/
 
-#content{
+.content{
     margin: 0rem 0rem 1rem 0rem;
 }
 
@@ -69,12 +69,12 @@ body {
     bottom: 2px;
 }
 
-#landing-text{
+.landing-text{
     opacity: 0;
     color: white;
     padding-top: 6rem;
     font-size: 40pt;
-    width: 25%;
+    width: 40%;
     text-align: center;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
@@ -91,7 +91,7 @@ body {
     font-size: 50px;
 }
 
-#icon-wrapper{
+.icon-wrapper{
     position: absolute;
     bottom: 5rem;
 }
@@ -105,7 +105,7 @@ body {
     }
 }
 
-#about-me-container {
+.about-me-container {
     background-color: #dfdfdf;
     border-radius: 10px;
     box-shadow: 5px 5px 8px #959595;
@@ -116,12 +116,12 @@ body {
     gap: 5rem;
 }
 
-#bio-wrapper {
+.bio-wrapper {
     padding-left: 2rem;
     flex-grow: 1;
 }
 
-#profile-img{
+.profile-img{
     background-image: url('../images/profile-lg.jpeg');
     background-size: cover;
     background-position-y: 30%;
@@ -130,39 +130,36 @@ body {
 
 /* responsive sizing */
 
-@media only screen and (max-width: 1350px) {
-    #about-me-container{
+@media only screen and (max-width: 1200px) {
+    .about-me-container{
         flex-direction: column-reverse;
         gap:unset;
         margin: 0rem 7rem;
     }
-    #profile-img{
+    .profile-img{
         min-width: none;
         min-height: 30rem;
     }
 }
 
-@media only screen and (max-width: 990px) {
-    #navbar{
+@media only screen and (max-width: 980px) {
+    .navbar{
         flex-direction: column;
         height: 19rem;
         z-index: 2;
     }
-    #navbar h2{
+    .navbar h2{
         width: 90%;
         text-align: center;
         font-size: 5em;
         padding: 1rem;
     }
-    #nav-container{
+    .nav-container{
         font-size: 3em;
         /* border-right: 1px solid white;
         border-top: 1px solid white; */
     }
-    #photo-container{
-        width: 500px;
-    }
-    #landing-text{
+    .landing-text{
         width: 60%;
         font-size: 60pt;
         
@@ -176,7 +173,10 @@ body {
 }
 
 @media only screen and (max-width: 600px){
-    #icon-wrapper {
-        bottom:40rem;
+    .icon-wrapper {
+        bottom: 40rem;
+    }
+    .landing-text {
+        color: red;
     }
 }

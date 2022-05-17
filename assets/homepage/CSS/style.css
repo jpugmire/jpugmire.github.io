@@ -9,8 +9,15 @@ body {
 
 /*navigation*/
 
+#sticky {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+
 #navbar {
-    background-color: #122136;
+    background-color: #000000;
     margin: 0px;
     display: flex;
     flex-direction: row;
@@ -32,7 +39,7 @@ body {
     text-size-adjust: none;
     align-self: flex-end;
     padding: 1rem;
-    border-left: 1px solid #e8e8e8;
+    /* border-left: 1px solid #e8e8e8; */
     text-decoration: none;
 }
 
@@ -49,10 +56,20 @@ body {
 /*main content*/
 
 #content{
-    margin: 1rem;
+    margin: 3.2rem 0rem 1rem 0rem;
+}
+
+/* landing page */
+.landing-page{
+    background-color: cyan;
+    height: 100vh;
+    background-image: url('../images/splash-img.jpg');
+    background-size: cover;
+    background-position: top;
 }
 
 #about-me-container{
+    margin: 1rem 4rem;
     background-color: #e8e8e8;
     padding: 1rem;
     border-radius: 1rem;
@@ -93,13 +110,16 @@ body {
     }
     #nav-container{
         font-size: 1.5em;
-        border-right: 1px solid white;
-        border-top: 1px solid white;
+        /* border-right: 1px solid white;
+        border-top: 1px solid white; */
     }
     #about-me-container{
         flex-direction: column;
     }
     #photo-container{
         width: 500px;
+    }
+    .landing-page{
+        margin-top: 9.4rem;
     }
 }

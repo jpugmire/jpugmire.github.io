@@ -134,6 +134,7 @@ body {
 
 #profile-img {
     max-width: 100%;
+    border: 2px solid black;
 }
 
 /* responsive sizing */
@@ -174,6 +175,12 @@ body {
         width: 100%;
         justify-content: center !important;
     }
+    #icon-wrapper{
+        bottom: 40rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
     #icon-wrapper{
         bottom: 25rem;
     }

@@ -61,7 +61,7 @@ body {
 
 /* landing page */
 .landing-page{
-    background-color: cyan;
+    background-color: black;
     height: 100vh;
     background-image: url('../images/splash-img.jpg');
     background-size: cover;

@@ -93,7 +93,7 @@ body {
 
 #icon-wrapper{
     position: absolute;
-    bottom: 8rem;
+    bottom: 5rem;
 }
 
 @keyframes fadeInAnimation {
@@ -105,31 +105,42 @@ body {
     }
 }
 
-#about-me-container{
-    margin: 1rem 4rem;
-    background-color: #e8e8e8;
-    padding: 1rem;
-    border-radius: 1rem;
+#about-me-container {
+    background-color: #dfdfdf;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px #959595;
+    overflow: hidden;
+    margin: 0rem 15rem;
+    min-height: 20rem;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    gap: 5rem;
 }
 
-#about-me-container h3{
-    margin-top: 0;
+#bio-wrapper {
+    padding-left: 2rem;
+    flex-grow: 1;
 }
 
-#photo-container{
-    width: 250px;
-}
-
-#profile-img {
-    max-width: 100%;
-    border: 2px solid black;
+#profile-img{
+    background-image: url('../images/profile-lg.jpeg');
+    background-size: cover;
+    background-position-y: 30%;
+    min-width: 25rem;
 }
 
 /* responsive sizing */
+
+@media only screen and (max-width: 1350px) {
+    #about-me-container{
+        flex-direction: column-reverse;
+        gap:unset;
+        margin: 0rem 7rem;
+    }
+    #profile-img{
+        min-width: none;
+        min-height: 30rem;
+    }
+}
 
 @media only screen and (max-width: 990px) {
     #navbar{
@@ -148,9 +159,6 @@ body {
         /* border-right: 1px solid white;
         border-top: 1px solid white; */
     }
-    #about-me-container{
-        flex-direction: column;
-    }
     #photo-container{
         width: 500px;
     }
@@ -165,13 +173,10 @@ body {
         width: 100%;
         justify-content: center !important;
     }
-    #icon-wrapper{
-        bottom: 40rem;
-    }
 }
 
-@media only screen and (max-width: 500px) {
-    #icon-wrapper{
-        bottom: 25rem;
+@media only screen and (max-width: 600px){
+    #icon-wrapper {
+        bottom:40rem;
     }
 }

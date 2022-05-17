@@ -4,24 +4,27 @@
 <head>
     <link rel="stylesheet" href="./assets/homepage/CSS/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Home</title>
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta property="og:title" content="Joseph Pugmire's CS Portfolio"/>
     <meta property="og:image" content="./assets/homepage/images/opengraph_preview.png"/>
+    <script src="https://kit.fontawesome.com/4c4f62a5ec.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="sticky">
-        <div id="navbar">
-            <h2>Joseph Pugmire, Software Developer</h2>
-            <div id="nav-container">
-                <div class="nav-item"><a href="https://www.linkedin.com/in/joseph-p-605820122/" target="_blank">Resume</a></div>
-                <div class="nav-item"><a href="#project-section">Projects</a></div>
-                <div class="nav-item"><a href="#homework-section">Homework</a></div>
-                <div class="nav-item"><a href="#about-me-container">About Me</a></div>
-            </div>
+    <div id="navbar">
+        <h2>Joseph Pugmire, Software Developer</h2>
+        <div id="nav-container">
+            <div class="nav-item"><a href="https://www.linkedin.com/in/joseph-p-605820122/" target="_blank">Resume</a></div>
+            <div class="nav-item"><a href="#project-section">Projects</a></div>
+            <div class="nav-item"><a href="#homework-section">Homework</a></div>
+            <div class="nav-item"><a href="#about-me-container">About Me</a></div>
         </div>
     </div>
-    <div class="landing-page">maybe a landing page here?</div>
+    <div class="landing-page">
+        <div id="landing-text">Find out why you want me on your team:</div>
+        <div id="icon-wrapper" onclick="hideArrow()" href="#about-me-container"><i class="fas fa-angle-down"></i></div>
+    </div>
     <div id="content">
         <h3 id="project-section">Hackathons (Group Projects):</h3>
         <a href="./assets/family_calendar/pages/family_calendar.html" target="_blank">Family Calendar Hackathon</a>
@@ -61,3 +64,24 @@
 </body>
 
 </html>
+
+<script>
+const nav = document.querySelector('#nav-container');
+let navTop = nav.offsetTop;
+
+function fixedNav() {
+  if (window.scrollY >= navTop) {    
+    nav.classList.add('sticky');
+  } else {
+    nav.classList.remove('sticky');    
+  }
+}
+
+window.addEventListener('scroll', fixedNav);
+
+function hideArrow() {
+    var el = document.getElementById('icon-wrapper');
+    el.style.display = 'none';
+    document.getElementById('about-me-container').scrollIntoView();
+}
+</script>

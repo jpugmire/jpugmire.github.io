@@ -9,12 +9,7 @@ body {
 
 /*navigation*/
 
-#sticky {
-    top: 0;
-    left: 0;
-    position: fixed;
-    width: 100%;
-}
+
 
 #navbar {
     background-color: #000000;
@@ -33,6 +28,9 @@ body {
 
 #nav-container {
     display: flex;
+    z-index: 2;
+    background-color: inherit;
+    justify-content: flex-end;
 }
 
 .nav-item {
@@ -66,6 +64,47 @@ body {
     background-image: url('../images/splash-img.jpg');
     background-size: cover;
     background-position: top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 2px;
+}
+
+#landing-text{
+    opacity: 0;
+    color: white;
+    padding-top: 6rem;
+    font-size: 40pt;
+    width: 25%;
+    text-align: center;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.3s;
+}
+
+.landing-page i {
+    opacity: 0;
+    color: white;
+    animation: fadeInAnimation ease 2.2s;
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards;
+    font-size: 50px;
+}
+
+#icon-wrapper{
+    position: absolute;
+    bottom: 8rem;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 #about-me-container{
@@ -103,13 +142,16 @@ body {
     #navbar{
         flex-direction: column;
         min-height: 80px;
+        z-index: 2;
     }
     #navbar h2{
-        font-size: 3em;
+        width: 90%;
+        text-align: center;
+        font-size: 5em;
         padding: 1rem;
     }
     #nav-container{
-        font-size: 1.5em;
+        font-size: 3em;
         /* border-right: 1px solid white;
         border-top: 1px solid white; */
     }
@@ -119,7 +161,20 @@ body {
     #photo-container{
         width: 500px;
     }
-    .landing-page{
-        margin-top: 5rem;
+    #landing-text{
+        position: absolute;
+        top: 12rem;
+        width: 60%;
+        font-size: 60pt;
+        
+    }
+    .sticky {
+        top: 0px;
+        position: fixed;
+        width: 100%;
+        justify-content: center !important;
+    }
+    #icon-wrapper{
+        bottom: 25rem;
     }
 }

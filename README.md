@@ -3,7 +3,7 @@
 This is a simple repo site where you'll be able to be linked to all my classwork and hackathon projects.
 
 ## Projects
-### [Hackathon 01](https://jpugmire.github.io/assets/family_calendar/pages/family_calendar.html)
+### [Hackathon 01](https://github.com/elizabethbillings93/familycalendar) - Family Calendar / Weather, Map API
 ![P01 Example Image](./assets/family_calendar/images/hackathon_screenshot.png)
 
 ## Homework

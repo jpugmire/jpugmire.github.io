@@ -19,7 +19,7 @@
 .experience-transition{
     background-image: url('../../../public/images/transition_2.svg#svgView(preserveAspectRatio(none))');
     background-size: 100% 100%;
-    width: 100%;
+    width: 100vw;
     height: 40%;
     position: absolute;
     bottom: -100vh;

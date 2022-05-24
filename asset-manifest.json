@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.1917a0cd.js",
-    "static/js/787.24b5241d.chunk.js": "/static/js/787.24b5241d.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/static/css/main.a83dd74c.css",
+    "main.js": "/static/js/main.f7a0335e.js",
+    "static/media/TechTowerSign.jpg": "/static/media/TechTowerSign.c98e9f36d8a06bc712a5.jpg",
+    "static/media/ev-centered.png": "/static/media/ev-centered.365e35fc79aa43788043.png",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.1917a0cd.js.map": "/static/js/main.1917a0cd.js.map",
-    "787.24b5241d.chunk.js.map": "/static/js/787.24b5241d.chunk.js.map"
+    "static/media/vector_final.svg": "/static/media/vector_final.72bd48881a7dcc1e9dfb.svg",
+    "static/media/transition_2.svg": "/static/media/transition_2.d62e208b414596328790.svg",
+    "main.a83dd74c.css.map": "/static/css/main.a83dd74c.css.map",
+    "main.f7a0335e.js.map": "/static/js/main.f7a0335e.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.1917a0cd.js"
+    "static/css/main.a83dd74c.css",
+    "static/js/main.f7a0335e.js"
   ]
 }

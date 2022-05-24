@@ -3,7 +3,7 @@
 This is a simple repo site where you'll be able to be linked to all my classwork and hackathon projects.
 
 ## Projects
-[Hackathon 01](https://jpugmire.github.io/assets/family_calendar/pages/family_calendar.html)
+### [Hackathon 01](https://jpugmire.github.io/assets/family_calendar/pages/family_calendar.html)
 
 ## Homework
 ### [Homework 06](https://jpugmire.github.io/hw-06-weather-dash/) - Weather Dashboard

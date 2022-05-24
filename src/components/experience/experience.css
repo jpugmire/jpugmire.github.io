@@ -68,6 +68,9 @@
 }
 
 @media only screen and (max-width: 450px) {
+    .experience-wrapper {
+        height: 95vh;
+    }
     .experience-transition{
         background-image: url('../../../public/images/transition_2_mobile.svg#svgView(preserveAspectRatio(none))');
     }

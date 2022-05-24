@@ -76,6 +76,9 @@
   }
   
   @media only screen and (max-width: 450px) {
+    .landing-wrapper {
+        height: 120vh;
+    }
     .landing-transition{
       height: 70%;
     }

@@ -7,7 +7,7 @@ This is a simple repo site where you'll be able to be linked to all my classwork
 ![P01 Example Image](./assets/family_calendar/images/hackathon_screenshot.png)
 
 ## Homework
-### [Homework 06](https://jpugmire.github.io/hw-06-weather-dash/) - Weather Dashboard
+### [Homework 06](https://github.com/jpugmire/hw-06-weather-dash) - Weather Dashboard
 ![H06 Example Image](./assets/homework/06/screenshot.png)
 
 ### [Homework 01](https://jpugmire.github.io/assets/homework/01/Develop/index.html) - Marketing Agency Website

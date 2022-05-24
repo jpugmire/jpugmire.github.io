@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.7c301948.css",
+    "main.css": "/static/css/main.b984a4f1.css",
     "main.js": "/static/js/main.f7a0335e.js",
     "static/media/TechTowerSign.jpg": "/static/media/TechTowerSign.c98e9f36d8a06bc712a5.jpg",
     "static/media/ev-centered.png": "/static/media/ev-centered.365e35fc79aa43788043.png",
     "index.html": "/index.html",
     "static/media/vector_final.svg": "/static/media/vector_final.72bd48881a7dcc1e9dfb.svg",
     "static/media/transition_2.svg": "/static/media/transition_2.5371589b97cf1e102736.svg",
-    "static/media/transition_2_mobile.svg": "/static/media/transition_2_mobile.5fa8c500d04438a33483.svg",
-    "main.7c301948.css.map": "/static/css/main.7c301948.css.map",
+    "static/media/transition_2_mobile.svg": "/static/media/transition_2_mobile.b37ef9cd150e4e3ededb.svg",
+    "main.b984a4f1.css.map": "/static/css/main.b984a4f1.css.map",
     "main.f7a0335e.js.map": "/static/js/main.f7a0335e.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c301948.css",
+    "static/css/main.b984a4f1.css",
     "static/js/main.f7a0335e.js"
   ]
 }

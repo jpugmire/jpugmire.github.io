@@ -8,7 +8,7 @@
     min-height:-webkit-fill-available;
     display: flex;
     flex-direction: column;
-    background-image: url("http://localhost:3000/static/media/vector_final.72bd48881a7dcc1e9dfb.svg#svgView(preserveAspectRatio(none))");
+    background-image: url('../../../public/images/vector_final.svg#svgView(preserveAspectRatio(none))');
     background-size: 100% 60%;
     background-repeat: no-repeat;
     background-position: bottom;

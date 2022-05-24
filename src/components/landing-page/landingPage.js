@@ -16,7 +16,6 @@ function landingPage() {
                 </div>
                 <img src='/images/square.jpeg' className='profile-image'></img>
             </div>
-            <div className='landing-transition'/>
       </div>
     );
 }

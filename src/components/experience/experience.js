@@ -18,7 +18,7 @@ function Experience () {
                     <header><h1>My Experience</h1></header>
                     <div className='info-profile'>My foundation in computer science is built on significant development 
                     experience through internships with eVestment, bolstered by Georgia Tech's Full Stack Development 
-                    Bootcamp.</div>
+                    Bootcamp. Tap the cards below for more information.</div>
                 </div>
                 <div className='card-wrapper'>
                     <div className='card' id='ev-card'>

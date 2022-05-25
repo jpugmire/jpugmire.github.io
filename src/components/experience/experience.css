@@ -110,6 +110,9 @@
         height: 14vw;
         width: 25vw;
     }
+    .card-item {
+        font-size: 0.8vw;
+    }
 }
 
 @media only screen and (max-width: 450px) {

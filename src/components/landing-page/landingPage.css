@@ -9,7 +9,7 @@
     background-image: url('../../../public/images/vector_final.svg#svgView(preserveAspectRatio(none))');
     background-size: 100% 60%;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position-y: 32vh;
     min-height: -webkit-fill-available;
   }
 

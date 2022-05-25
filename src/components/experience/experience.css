@@ -9,6 +9,8 @@
     color: #ffffff;
     display: flex;
     flex-direction: column;
+    position: relative;
+    bottom: 1px;
 }
 
 .experience-wrapper .content-section{

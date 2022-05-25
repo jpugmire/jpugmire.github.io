@@ -9,7 +9,7 @@
     background-image: url('../../../public/images/vector_final.svg#svgView(preserveAspectRatio(none))');
     background-size: 100% 60%;
     background-repeat: no-repeat;
-    background-position-y: 32vh;
+    background-position: bottom left;
     min-height: -webkit-fill-available;
   }
 
@@ -80,7 +80,7 @@
       background-image: url('../../../public/images/mobile_landing.svg#svgView(preserveAspectRatio(none))');
       background-size: 100% 60%;
       background-repeat: no-repeat;
-      background-position: bottom;
+      background-position-y: 32vh;
     }
     .landing-wrapper .content-section{
       margin: 3rem 2rem 10rem 2rem;

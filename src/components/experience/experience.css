@@ -1,4 +1,8 @@
 .experience-wrapper{
+    background-image: url('../../../public/images/transition_2.svg#svgView(preserveAspectRatio(none))');
+    background-size: 100% 40%;
+    background-repeat: no-repeat;
+    background-position: bottom;
     font-family: 'Lato';
     background-color:#1B1B1E;
     height: 100vh;
@@ -16,16 +20,7 @@
     justify-content: space-around;
 }
 
-.experience-transition{
-    background-image: url('../../../public/images/transition_2.svg');
-    background-size: 100% 100%;
-    width: 100%;
-    height: 40%;
-    position: absolute;
-    bottom: -100vh;
-}
-
-.info-section{
+.experience-wrapper.info-section{
     margin-bottom: 1rem;
 }
 
@@ -66,15 +61,27 @@
         width: 50vw;
     }
 }
+@media only screen and (min-width: 1100px){
+    .experience-wrapper .content-section{
+        margin: 0rem 15rem 0rem 15rem;
+    }
+    .card {
+        height: 14vw;
+        width: 25vw;
+    }
+}
 
 @media only screen and (max-width: 450px) {
-    .experience-transition{
-        background-image: url('../../../public/images/transition_2_mobile.svg#svgView(preserveAspectRatio(none))');
+    .experience-wrapper{
+        background-image: url('../../../public/images/mobile_transition_2.svg#svgView(preserveAspectRatio(none))');
+        background-size: 100% 60%;
+        background-repeat: no-repeat;
+        background-position: bottom;
     }
     .info-profile{
         width: 60vw;
     }
-    .info-section{
+    .experience-wrapper .info-section{
         font-size: smaller;
     }
     .card {

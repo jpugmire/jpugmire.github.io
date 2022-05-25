@@ -15,7 +15,6 @@ function Experience () {
                     <div className='card' id='gt-card'></div>
                 </div>
             </div>
-            <div className='experience-transition'/>
         </div>
     );
 }

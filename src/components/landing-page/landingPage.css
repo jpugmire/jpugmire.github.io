@@ -78,9 +78,7 @@
   @media only screen and (max-width: 450px) {
     .landing-wrapper {
       background-image: url('../../../public/images/mobile_landing.svg#svgView(preserveAspectRatio(none))');
-      background-size: 100% 60%;
-      background-repeat: no-repeat;
-      background-position-y: 32vh;
+      background-size: 50% 60%;
     }
     .landing-wrapper .content-section{
       margin: 3rem 2rem 10rem 2rem;

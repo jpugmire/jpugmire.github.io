@@ -1,5 +1,5 @@
 .experience-wrapper{
-    background-image: url('../../../public/images/transition_2.svg#svgView(preserveAspectRatio(none))');
+    background-image: url('../../../public/images/experience-bg.svg');
     background-size: 100% 40%;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -72,7 +72,7 @@
 
 @media only screen and (max-width: 450px) {
     .experience-wrapper{
-        background-image: url('../../../public/images/mobile_transition_2.svg#svgView(preserveAspectRatio(none))');
+        background-image: url('../../../public/images/experience-bg-m.svg#svgView(preserveAspectRatio(none))');
         background-size: 100% 60%;
         background-repeat: no-repeat;
         background-position: bottom;

@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.87b32a94.css",
+    "main.css": "/static/css/main.a1ea3754.css",
     "main.js": "/static/js/main.b8bf1ae7.js",
     "static/media/TechTowerSign.jpg": "/static/media/TechTowerSign.c98e9f36d8a06bc712a5.jpg",
     "static/media/ev-centered.png": "/static/media/ev-centered.365e35fc79aa43788043.png",
     "index.html": "/index.html",
-    "static/media/mobile_landing.svg": "/static/media/mobile_landing.d3253f1d49def999ac37.svg",
-    "static/media/vector_final.svg": "/static/media/vector_final.72bd48881a7dcc1e9dfb.svg",
-    "static/media/mobile_transition_2.svg": "/static/media/mobile_transition_2.056b1acae4c7024115ed.svg",
-    "static/media/transition_2.svg": "/static/media/transition_2.5371589b97cf1e102736.svg",
-    "main.87b32a94.css.map": "/static/css/main.87b32a94.css.map",
+    "static/media/landing-bg-m.svg": "/static/media/landing-bg-m.80f5af128bca60c04ec0.svg",
+    "static/media/landing-bg.svg": "/static/media/landing-bg.3550d48b57ec2c4ca494.svg",
+    "static/media/experience-bg-m.svg": "/static/media/experience-bg-m.056b1acae4c7024115ed.svg",
+    "static/media/experience-bg.svg": "/static/media/experience-bg.3be1ac67613a5e44ef23.svg",
+    "main.a1ea3754.css.map": "/static/css/main.a1ea3754.css.map",
     "main.b8bf1ae7.js.map": "/static/js/main.b8bf1ae7.js.map"
   },
   "entrypoints": [
-    "static/css/main.87b32a94.css",
+    "static/css/main.a1ea3754.css",
     "static/js/main.b8bf1ae7.js"
   ]
 }

@@ -23,7 +23,7 @@ function Experience () {
                 </div>
                 <div className='card-wrapper'>
                     <div className='card' id='ev-card'>
-                        <FontAwesomeIcon icon={faSuitcase} size='4x' className='card-item card-icon'/>
+                        <FontAwesomeIcon icon={faSuitcase} size='4x' className='card-icon'/>
                         <div className='card-item'>Five consecutive internships as a full-stack developer <br/><br/>
                             Primarily worked with Vue, C#, SQL <br/><br/>
                             Large exposure to AGILE methodology / project planning
@@ -31,7 +31,7 @@ function Experience () {
                         <div class='card-overlay'></div>
                     </div>
                     <div className='card' id='gt-card'>
-                        <FontAwesomeIcon icon={faGraduationCap} size='4x' className='card-item card-icon'/>
+                        <FontAwesomeIcon icon={faGraduationCap} size='4x' className='card-icon'/>
                         <div className='card-item'>Completed Georgia Tech's Full Stack Bootcamp <br/><br/>
                             Improved experience and competency with previously learned technologies <br/><br/>
                             Gained experience in new languages and technologies, including noSQL and React,

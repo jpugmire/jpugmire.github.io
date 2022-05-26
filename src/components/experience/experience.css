@@ -14,7 +14,7 @@
 }
 
 .experience-wrapper .content-section{
-    margin: 0 20vh 10rem 20vh;
+    margin: 0 15vw 10rem 15vw;
     display: flex;
     flex-direction: column;
     padding-top: 3rem;
@@ -54,7 +54,7 @@
 .card-item {
     font-size: 1vw;
     position: relative;
-    margin: 3vh 3vh 0 3vh;
+    margin: 1vw 3vh 0 3vh;
     opacity: 0;
     z-index: 1;
     transition: all 0.5s;
@@ -101,12 +101,21 @@
     background-image: url('../../../public/images/TechTowerSign.jpg');
 }
 
+/* wiiiiide */
 @media only screen and (min-width: 1100px){
     .experience-wrapper .content-section{
-        margin: 0 25vh 10rem 25vh;
+        margin: 0 30vh 10rem 30vh;
+    }
+    .card-item {
+        font-size: 0.75vw;
+    }
+    .card {
+        height: 15vw;
+        width: 25vw;
     }
 }
 
+/* switch to column for cards at 850 to account for weirdo tablets */
 @media only screen and (max-width: 850px) {
     .experience-wrapper .content-section{
         margin: 0 10vh 10rem 10vh;
@@ -125,12 +134,12 @@
     }
 }
 
+/* mobile styles */
 @media only screen and (max-width: 600px) {
     .focused-card{
         bottom: 20vh;
     }
     .experience-wrapper{
-        background-image: url('../../../public/images/experience-bg-m.svg#svgView(preserveAspectRatio(none))');
         background-size: 100% 40%;
         background-repeat: no-repeat;
         background-position: bottom;
@@ -143,6 +152,7 @@
     }
     .experience-wrapper .info-section{
         margin: 0 10vw 5rem 10vw;
+        font-size: 2.5vh;
     }
     .card {
         height: 25vh;

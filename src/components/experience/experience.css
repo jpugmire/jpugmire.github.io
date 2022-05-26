@@ -52,7 +52,7 @@
 }
 
 .card-item {
-    font-size: 0.85vw;
+    font-size: 1vw;
     position: relative;
     margin: 3vh 3vh 0 3vh;
     opacity: 0;
@@ -61,7 +61,7 @@
 }
 
 .card-icon {
-    font-size: 5vw;
+    font-size: 3vw;
     opacity: 0;
     position: relative;
     z-index: 1;

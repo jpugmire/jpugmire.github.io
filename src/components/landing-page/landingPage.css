@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     background-image: url('../../../public/images/landing-bg.svg#svgView(preserveAspectRatio(none))');
-    background-size: 100% 40%;
+    background-size: 100% 60%;
     background-repeat: no-repeat;
     background-position: bottom left;
     min-height: -webkit-fill-available;
@@ -85,7 +85,7 @@
   @media only screen and (max-width: 600px) {
     .landing-wrapper {
       background-image: url('../../../public/images/landing-bg-m.svg#svgView(preserveAspectRatio(none))');
-      background-size: 100% 80%;
+      background-size: 100% 60%;
     }
     .landing-wrapper .content-section{
       margin: 3rem 10vw 10rem 10vw;

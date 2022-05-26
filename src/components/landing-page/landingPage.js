@@ -14,7 +14,7 @@ function landingPage() {
                     </div>
                     <div className='info-profile'>I'm a web developer living in Atlanta, GA.<br/>I make full stack web apps, hopefully for you!</div>
                 </div>
-                <img src='/images/kujo 1.png' className='profile-image'></img>
+                <img src='/images/square.jpeg' className='profile-image'></img>
             </div>
       </div>
     );

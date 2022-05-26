@@ -26,7 +26,8 @@ function Experience () {
                         <FontAwesomeIcon icon={faSuitcase} size='4x' className='card-icon'/>
                         <div className='card-item'>Five consecutive internships as a full-stack developer <br/><br/>
                             Primarily worked with Vue, C#, SQL <br/><br/>
-                            Large exposure to AGILE methodology / project planning
+                            Large exposure to AGILE methodology / project planning <br></br>
+                            Significant experience with AWS services and deployment
                         </div>
                         <div class='card-overlay'></div>
                     </div>

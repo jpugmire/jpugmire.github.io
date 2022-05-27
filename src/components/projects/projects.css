@@ -42,6 +42,7 @@
 }
 
 .projects-wrapper .card-preview-wrapper {
+    overflow: hidden;
     height: 40%;
 }
 

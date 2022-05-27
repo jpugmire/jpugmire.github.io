@@ -10,11 +10,11 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    bottom: 1px;
+    bottom: 2px;
 }
 
 .experience-wrapper .content-section{
-    margin: 0 15vw 10rem 15vw;
+    margin: 0 20vw 10rem 20vw;
     display: flex;
     flex-direction: column;
     padding-top: 3rem;
@@ -25,17 +25,17 @@
     margin-bottom: 5rem;
 }
 
-.info-profile{
+.experience-wrapper .info-profile{
     width: 65vw;
 }
 
-.card-wrapper{
+.experience-wrapper .card-wrapper{
     display: flex;
     justify-content: space-around;
     z-index: 1;
 }
 
-.card {
+.experience-wrapper .card {
     height: 17vw;
     width: 30vw;
     background-size: cover;
@@ -46,13 +46,13 @@
     transition: all 1s ease;
 }
 
-.focused-card {
+.experience-wrapper .focused-card {
     position: relative;
     bottom: 15vh;
 }
 
-.card-item {
-    font-size: 1vw;
+.experience-wrapper .card-item {
+    font-size: 0.9vw;
     position: relative;
     margin: 1vw 3vh 0 3vh;
     opacity: 0;
@@ -60,7 +60,7 @@
     transition: all 0.5s;
 }
 
-.card-icon {
+.experience-wrapper .card-icon {
     font-size: 3vw;
     opacity: 0;
     position: relative;
@@ -69,7 +69,7 @@
     margin: 3vh 0 0 3vh;
 }
 
-.card-overlay {
+.experience-wrapper .card-overlay {
     position: absolute;
     bottom: 0;
     z-index: 0;
@@ -81,15 +81,15 @@
     
 }
 
-.card:hover .card-overlay{
+.experience-wrapper .card:hover .card-overlay{
     opacity: 0.6;
 }
 
-.card:hover .card-item {
+.experience-wrapper .card:hover .card-item {
     opacity: 1;
 }
 
-.card:hover .card-icon {
+.experience-wrapper .card:hover .card-icon {
     opacity: 1;
 }
 
@@ -106,10 +106,10 @@
     .experience-wrapper .content-section{
         margin: 0 30vh 10rem 30vh;
     }
-    .card-item {
+    .experience-wrapper .card-item {
         font-size: 0.75vw;
     }
-    .card {
+    .experience-wrapper .card {
         height: 15vw;
         width: 25vw;
     }
@@ -120,15 +120,15 @@
     .experience-wrapper .content-section{
         margin: 0 10vh 10rem 10vh;
     }
-    .card-item {
+    .experience-wrapper .card-item {
         font-size: 1.5vw;
     }
-    .card-wrapper{
+    .experience-wrapper .card-wrapper{
         flex-direction: column;
         height: 60vh;
         align-items: center;
     }
-    .card {
+    .experience-wrapper .card {
         height: 30vw;
         width: 50vw;
     }
@@ -136,7 +136,7 @@
 
 /* mobile styles */
 @media only screen and (max-width: 600px) {
-    .focused-card{
+    .experience-wrapper .focused-card{
         bottom: 20vh;
     }
     .experience-wrapper{
@@ -147,22 +147,22 @@
     .experience-wrapper .content-section{
         margin: 0 0 10rem 0;
     }
-    .info-profile{
+    .experience-wrapper .info-profile{
         width: 80vw;
     }
     .experience-wrapper .info-section{
         margin: 0 10vw 5rem 10vw;
         font-size: 2.5vh;
     }
-    .card {
+    .experience-wrapper .card {
         height: 25vh;
         width: 100%;
     }
-    .card-item{
+    .experience-wrapper .card-item{
         margin-top: 1rem;
         font-size: 2.7vw;
     }
-    .card-icon{
+    .experience-wrapper .card-icon{
         font-size: 10vw;
     }
 }

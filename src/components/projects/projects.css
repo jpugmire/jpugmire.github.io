@@ -1,0 +1,109 @@
+.projects-wrapper {
+    min-height: 96vh;
+    background-color: #1B1B1E;
+    font-family: 'Lato';
+    color: #ffffff;
+    position: relative;
+    bottom: 1px;
+}
+
+.projects-wrapper .content-section {
+    margin: 0 20vw 0 20vw;
+    padding-bottom: 5rem;
+}
+
+.projects-wrapper .info-section {
+    margin-bottom: 10vh;
+}
+
+.projects-wrapper .card-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    row-gap: 3vh;
+    column-gap: 3vh;
+}
+
+.projects-wrapper .card {
+    width: 17vw;
+    height: 28vw;
+    border-radius: 10px;
+    background-color: #45494e;
+    box-shadow: 0px 3px 7px #000000;
+    overflow: hidden;
+    transition: all 0.25s ease;
+    text-decoration: none;
+}
+
+.projects-wrapper .card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0px 5px 7px #000000;
+}
+
+.projects-wrapper .card-preview-wrapper {
+    height: 40%;
+}
+
+.card-preview-wrapper img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.projects-wrapper .card-desc-wrapper {
+    margin: 1.5vw;
+}
+
+.projects-wrapper .card-desc-wrapper h3{
+    margin: 0 0 1vw 0;
+    font-size: 1.3vw;
+}
+
+.projects-wrapper .card-desc {
+    font-size: 1vw;
+}
+
+.projects-wrapper img {
+    transform: translateZ(0);
+}
+
+.projects-wrapper a {
+    text-decoration: none;
+}
+
+.projects-wrapper a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* tablet resolutions increase card size */
+@media only screen and (max-width: 850px){
+    .projects-wrapper .content-section {
+        margin: 0 10vw 0 10vw;
+    }
+    /* start calculating by screen height instead of width */
+    .projects-wrapper .card {
+        height: 50vh;
+        width: 30vh;
+    }
+
+    .projects-wrapper .card-desc-wrapper {
+        margin: 1.5vh;
+    }
+
+    .projects-wrapper .card-desc-wrapper h3{
+        font-size: 2.5vh;
+    }
+    .projects-wrapper .card-desc {
+        font-size: 1.7vh;
+    }
+}
+
+/* on mobile we just want to increase the info section size */
+@media only screen and (max-width: 600px){
+    .projects-wrapper .info-section{
+        width: 80vw;
+    }
+}

@@ -21,10 +21,6 @@
     justify-content: space-around;
 }
 
-.experience-wrapper .info-section{
-    margin-bottom: 5rem;
-}
-
 .experience-wrapper .info-profile{
     width: 65vw;
 }
@@ -103,9 +99,6 @@
 
 /* wiiiiide */
 @media only screen and (min-width: 1100px){
-    .experience-wrapper .content-section{
-        margin: 0 30vh 10rem 30vh;
-    }
     .experience-wrapper .card-item {
         font-size: 0.75vw;
     }

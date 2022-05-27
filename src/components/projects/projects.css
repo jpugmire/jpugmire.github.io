@@ -70,12 +70,16 @@
 }
 
 .projects-wrapper a {
-    text-decoration: none;
+    text-decoration: inherit;
+}
+
+.projects-wrapper a:link{
+    text-decoration: inherit;
 }
 
 .projects-wrapper a:visited {
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: inherit;
 }
 
 /* tablet resolutions increase card size */

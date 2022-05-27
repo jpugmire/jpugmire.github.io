@@ -28,7 +28,7 @@
     width: 17vw;
     height: 28vw;
     border-radius: 10px;
-    background-color: #45494e;
+    background-color: #37373b;
     box-shadow: 0px 3px 7px #000000;
     overflow: hidden;
     transition: all 0.25s ease;
@@ -44,6 +44,7 @@
 .projects-wrapper .card-preview-wrapper {
     overflow: hidden;
     height: 40%;
+    transition: all 0.5s ease;
 }
 
 .card-preview-wrapper img {
@@ -65,7 +66,8 @@
 }
 
 .projects-wrapper .card-desc {
-    font-size: 1vw;
+    font-size: 0.9vw;
+    transition: all 0.25s ease;
 }
 
 .projects-wrapper img {
@@ -114,5 +116,8 @@
 @media only screen and (max-width: 600px){
     .projects-wrapper .info-section{
         width: 80vw;
+    }
+    .projects-wrapper .card:hover{
+        margin: 3vh 0;
     }
 }

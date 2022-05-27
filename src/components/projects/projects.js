@@ -9,7 +9,7 @@ export default function Projects() {
                     <div class='info-profile'>Below you'll find solo and group projects I've worked on.
                     Everything here is something I'm proud of for one reason or another.
                     <br></br><br></br>
-                    Click the cards below to see the deployed project.</div>
+                    Click the image on the cards below to see the deployed project.</div>
                 </div>
                 <div class="card-wrapper">
                     <div class='card'>

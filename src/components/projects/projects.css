@@ -74,11 +74,12 @@
 }
 
 .projects-wrapper a:link{
+    color: inherit;
     text-decoration: inherit;
 }
 
 .projects-wrapper a:visited {
-    color: #ffffff;
+    color: inherit;
     text-decoration: inherit;
 }
 

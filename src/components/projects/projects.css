@@ -91,6 +91,7 @@
     .projects-wrapper .card {
         height: 50vh;
         width: 30vh;
+        overflow: hidden;
     }
 
     .projects-wrapper .card-desc-wrapper {

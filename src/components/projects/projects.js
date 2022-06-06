@@ -13,6 +13,23 @@ export default function Projects() {
                 </div>
                 <div class="card-wrapper">
                     <div class='card'>
+                        <a href='https://dev-doctor.herokuapp.com/' target='_blank' rel='noreferrer'>
+                            <div class='card-preview-wrapper'>
+                                <img src='/images/devdoc-prev.png'></img>
+                            </div>
+                        </a>
+                        <div class="card-desc-wrapper">
+                            <h3>Dev Doctor</h3>
+                            <div class="card-desc">
+                                For my third hackathon-style project for my bootcamp,
+                                my team and I decided to build an app that could help a
+                                new developer create a react app and some basic components,
+                                and help them deploy their site. This app gives new devs
+                                starter code that they can customize right on our site and save.
+                            </div>
+                        </div>
+                    </div>
+                    <div class='card'>
                         <a href='https://jpugmire.github.io/hw-06-weather-dash/' target='_blank' rel='noreferrer'>
                             <div class='card-preview-wrapper'>
                                 <img src='/images/weather-card-prev.png'></img>
@@ -21,7 +38,7 @@ export default function Projects() {
                         <div class="card-desc-wrapper">
                             <h3>Weather Dashboard</h3>
                             <div class="card-desc">
-                                Another homework assignment from GT, this
+                                A homework assignment from GT, this
                                 required me to use a third party api
                                 as well as local storage to allow users to input a city
                                 name, get up to date weather output,
@@ -29,7 +46,6 @@ export default function Projects() {
                             </div>
                         </div>
                     </div>
-                    
                     <div class='card'>
                         <a href='https://jpugmire.github.io/hackathon-01-family-calendar' target='_blank' rel='noreferrer'>
                             <div class='card-preview-wrapper'>
@@ -41,26 +57,27 @@ export default function Projects() {
                             <div class="card-desc">
                             This is an HTML/CSS/JS based calendar app that allows you to add 
                             and manipulate events as well as add locations and view 
-                            potential weather forecasts for the date in question.
+                            potential weather forecasts for the date in question. This is a hackathon
+                            project took place over 4 days.
                             </div>
                         </div>
                     </div>
-                        <div class='card'>
-                            <a href='https://www.npmjs.com/package/@gtbootcampproject2/community-bulletin-board' target='_blank' rel='noreferrer'>
-                                <div class='card-preview-wrapper'>
-                                    <img src='/images/npm-card-prev.png'></img>
-                                </div>
-                            </a>
-                            <div class="card-desc-wrapper">
-                                <h3>Community Bulletin Board NPM Package</h3>
-                                <div class="card-desc">
-                                My second hackathon team decided to build a community bulletin board, published on NPM, 
-                                effectively allowing a slightly technology-inclined person to download
-                                 and set up their own version
-                                for their community.
-                                </div>
+                    <div class='card'>
+                        <a href='https://www.npmjs.com/package/@gtbootcampproject2/community-bulletin-board' target='_blank' rel='noreferrer'>
+                            <div class='card-preview-wrapper'>
+                                <img src='/images/npm-card-prev.png'></img>
+                            </div>
+                        </a>
+                        <div class="card-desc-wrapper">
+                            <h3>Community Bulletin Board NPM Package</h3>
+                            <div class="card-desc">
+                            My second hackathon team decided to build a community bulletin board, published on NPM, 
+                            effectively allowing a slightly technology-inclined person to download
+                                and set up their own version
+                            for their community.
                             </div>
                         </div>
+                    </div>
                 </div>
             </div>
         </div>
